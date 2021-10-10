@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+
+    <head>
+        <title>QUIZ SOBRE REDES LAN</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+       
+        <script src="js/questions.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+
+    <body class="bg-info">
+
+        <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+        <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+
+        <div class="container-fluid">
+            <div class="modal-dialog">
+                <div class="modal-content content-modal bg-info initial-modal">
+                    <div class="modal-header">
+                        <h3 class='col-12 modal-title text-center'><span class="label label-warning" id="qid"></span>Quiz sobre redes LAN</h3>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="initial-text">
+                            Este quiz foi elaborado com o intuito de ensinar sobre redes lan de forma simples. Para mais informações consultar a seção sobre desse quiz.
+                        </div>
+
+                        <br>
+
+                        <button class='element-animation1 btn btn-lg btn-light text-info' onclick='start_game()'>Jogar</button>
+                    </div>
+
+                    <div class="modal-footer"><span class="about">Sobre</span></div>
+                </div>
+
+
+                <div class="modal-content bg-info about-modal hidden">
+                    <div class="modal-header">
+                        <h3 class='col-12 modal-title text-center'><span class="label label-warning" id="qid"></span>Quiz sobre redes LAN</h3>
+                    </div>
+
+                    <div class="modal-body credits">
+                        PESQUISA<br>
+                        Francielly Ferraz da silva<br>
+                        Gabriele Bueno<br>
+                        <br>
+                        DESENVOLVIMENTO<br>
+                        Carlo Henrique Ferreira Rodrigues<br>
+                        Natália Gallo Ribeiro<br>
+                        <br>
+                        REFERÊNCIAS <br>
+
+                        <div class="row">
+                            <div class="col txt-right">Douglas E.Comer</div>
+                            <div class="col txt-left">Redes de Computadores e Internet - 6.ed. - 2016</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col txt-right">Douglas Rocha Mendes</div>
+                            <div class="col txt-left">Redes de Computadores: Teoria e Prática - 1.ed. - 2020</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col txt-right">helpdigitalti.com.br</div>
+                            <div class="col txt-left">O que é uma rede lan e uma rede wan? - 2020</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col txt-right">speedcheck.org</div>
+                            <div class="col txt-left">O que é uma lan? - 2020</div>
+                        </div>
+                    
+                        <br>
+                    </div>
+
+                    <div class="modal-footer"><span class="back">Voltar</span></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $('.about').click(function() {
+                $('.about-modal').toggleClass('hidden');
+                $('.initial-modal').toggleClass('hidden');
+            });
+
+            $('.back').click(function() {
+                $('.about-modal').toggleClass('hidden');
+                $('.initial-modal').toggleClass('hidden');
+            });
+        </script>
+
+    </body>
+
+</html>
