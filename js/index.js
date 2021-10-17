@@ -135,8 +135,8 @@ var write_final_screen = function()
 
     modal = "<div class='modal-header'><h3 class='col-12 modal-title text-center'><span class='label label-warning' id='qid'></span>SCORE</h3></div>";
     modal += "<div class='modal-body'><div class='final-score'>" + score + "/9</div></br><div class='final-message'>" + final_message + "</div></br><button class='element-animation1 btn btn-lg btn-light text-info' onclick='restart_game()'>Jogar Novamente</button></div>";
-    modal += "<div class='modal-footer text-muted'><span id='answer'></span>";
-
+    modal += "<div class='modal-footer' style='justify-content: space-between'><a class='back-article' href='index.html'>Voltar para o artigo</a><a class='back-article' href='quiz.html'>Voltar para o quiz</a></div>";
+    
     $(".content-modal").html("");
     $(".content-modal").html(modal);
 }; 

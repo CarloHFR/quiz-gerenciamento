@@ -1,6 +1,6 @@
 questions = {
     "1": {
-        "question": "O objetivo do Gerenciamento de eventos é prover a capacidade de detectar eventos, analisá-los e determinar ações de controle apropriadas.",
+        "question": "1 - O objetivo do Gerenciamento de eventos é prover a capacidade de detectar eventos, analisá-los e determinar ações de controle apropriadas.",
         "type": "vf",
         "answers": {
             "a1": "Verdadeiro",
@@ -9,7 +9,7 @@ questions = {
         "correct_answer": "a1"
     },
     "2": {
-        "question": "Eventos anormais indicam quando o sistema não apresenta erro mas requer atenção.",
+        "question": "2 - Eventos anormais indicam quando o sistema não apresenta erro mas requer atenção.",
         "type": "vf",
         "answers": {
             "a1": "Verdadeiro",
@@ -18,7 +18,7 @@ questions = {
         "correct_answer": "a2"
     },
     "3": {
-        "question": "Qual destes não é o papel do gerente de incidentes?",
+        "question": "3 - Qual destes não é o papel do gerente de incidentes?",
         "type": "multi",
         "answers": {
             "a1": "Buscar a eficiência e eficácia dos processos.",
@@ -29,7 +29,7 @@ questions = {
         "correct_answer": "a3"
     },
     "4": {
-        "question": "Quais as atividades primárias do gerenciamento de problemas?",
+        "question": "4 - Quais as atividades primárias do gerenciamento de problemas?",
         "type": "multi",
         "answers": {
             "a1": "Controle de Problemas, Controle de Erros, Gerenciamento de Configuração, Controle de incidentes.",
@@ -40,7 +40,7 @@ questions = {
         "correct_answer": "a3"
     },
     "5": {
-        "question": "As principais atividades do Controle de Problemas são: Identificação e registro, classificação, Investigação e diagnóstico, Requisição de mudança, solução e fechamento.",
+        "question": "5 - As principais atividades do Controle de Problemas são: Identificação e registro, classificação, Investigação e diagnóstico, Requisição de mudança, solução e fechamento.",
         "type": "vf",
         "answers": {
             "a1": "Verdadeiro",
@@ -49,7 +49,7 @@ questions = {
         "correct_answer": "a1"
     },
     "6": {
-        "question": "O processo de cumprimento de requisição geralmente contempla demandas que representam grandes alterações que são de alto custo e risco, e que ocorrem com frequência.",
+        "question": "6 - O processo de cumprimento de requisição geralmente contempla demandas que representam grandes alterações que são de alto custo e risco, e que ocorrem com frequência.",
         "type": "vf",
         "answers": {
             "a1": "Verdadeiro",
@@ -58,7 +58,7 @@ questions = {
         "correct_answer": "a2"
     },
     "7": {
-        "question": "Qual desses não é um conceito de gerenciamento de acesso.",
+        "question": "7 - Qual desses não é um conceito de gerenciamento de acesso.",
         "type": "multi",
         "answers": {
             "a1": "Access",
@@ -69,7 +69,7 @@ questions = {
         "correct_answer": "a4"
     },
     "8": {
-        "question": "O gerenciamento de acesso afeta as permissões de um usuário.",
+        "question": "8 - O gerenciamento de acesso afeta as permissões de um usuário.",
         "type": "vf",
         "answers": {
             "a1": "Verdadeiro",
@@ -78,7 +78,7 @@ questions = {
         "correct_answer": "a1"
     },
     "9": {
-        "question": "Qual dessas é uma característica da central de serviços centralizada?",
+        "question": "9 - Qual dessas é uma característica da central de serviços centralizada?",
         "type": "multi",
         "answers": {
             "a1": "Padronizar os procedimentos e métodos de atendimento ao cliente.",
