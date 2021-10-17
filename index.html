@@ -45,30 +45,207 @@
 
                         <div class="article-subtitle">1 Gerenciamento de eventos</div>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio id est mattis laoreet faucibus eget mi. Vestibulum at arcu urna. Suspendisse potenti. Pellentesque id accumsan justo. In justo mi, congue quis hendrerit id, lobortis sed tortor. Phasellus semper cursus ante nec finibus. Curabitur ultrices ante vitae tellus dapibus auctor. In in turpis urna. Proin in ligula at lorem mattis lacinia. In auctor venenatis ligula dignissim scelerisque. Nulla posuere imperdiet nisl, vitae accumsan mi tincidunt non. Ut sodales quis risus scelerisque finibus. Sed semper sit amet est a elementum.</p>
+                        <div class="article-subtitle">1.1 O que é um evento?</div>
+                        <p>Um evento no contexto do gerenciamento de eventos é qualquer ocorrência detectável ou discernível que gera uma necessidade do uso de gestão de infraestrutura de TI ou mesmo de fornecimento de um serviço de TI.</p>
+
+                        <div class="article-subtitle">1.2 Qual o objetivo de detectar um evento?</div>
+                        <p>O objetivo do Gerenciamento de Evento é prover a capacidade de detectar eventos, analisá-los e determinar ações de controle apropriadas. O Gerenciamento de Evento é, portanto, a base para monitoração e controle operacional.</p>
+
+                        <div class="article-subtitle">1.3 Como se detecta um evento de forma eficaz?</div>
+                        A operação de serviço como um todo depende do conhecimento da situação da infraestrutura e da detecção de qualquer desvio da operação normal ou esperada. Por isso os sistemas de monitoramento são baseados em duas principais ferramentas: <br>
+
+                        <strong>Ferramentas ativas:</strong> Que avaliam itens chave de configuração para determinar sua situação e disponibilidade. <br>
+                        <strong>Ferramentas passivas:</strong> Que detectam e correlacionam alertas operacionais ou comunicações geradas por itens de configuração. <br><br>
+
+                        <div class="article-subtitle">1.4 Tipos de eventos</div>
+                        <ul>
+                            <li><strong>Eventos normais:</strong> Indicam quando o sistema está funcionando normalmente.</li>
+                            <li><strong>Eventos anormais:</strong> Indicam quando o sistema apresenta um erro.</li>
+                            <li><strong>Eventos não usuais:</strong> Indicam quando o sistema não apresenta erro mas requer atenção.</li>
+                        </ul>
+                            
+                        <div class="article-subtitle">1.5 Processo para detectar e tratar um evento</div>
+                        <ul>
+                            <li>Ocorrência do evento.</li>
+                            <li>Notificação do evento.</li>
+                            <li>Detecção do evento.</li>
+                            <li>Filtragem do evento.</li>
+                            <li>Selecionar resposta ao evento.</li>
+                            <li>Ações de revisão.</li>
+                            <li>Fechamento do evento.</li>
+                        </ul>
+                            
+                        <div class="article-subtitle">1.6 Papéis relacionados ao gerenciamento de eventos</div>
+                        <ul>
+                            <li><strong>Central de Serviço:</strong> Comunica informações para quem for necessário, investiga e resolve eventos.</li>
+                            <li><strong>Desenho de Serviço:</strong> Classifica e define mecanismos de correlações e auto respostas.</li>
+                            <li><strong>Transição do Serviço:</strong> Assegura o funcionamento apropriado.</li>
+                            <li><strong>Operação de Serviço:</strong> Executa o gerenciamento de eventos para os sistemas que estão sob seus controles.</li>
+                        </ul>
+
+                        <br>
 
                         <div class="article-subtitle">2 Gerenciamento de incidentes</div>
+                        <p>Entrará em atuação a partir dos incidentes levantados por usuários ou ferramentas de monitoramento, por isso é vital para manter a agilidade dos serviços de TI.</p>
 
-                        <p>Donec iaculis sagittis velit, sed finibus massa consequat vel. Morbi tristique in mauris vitae iaculis. Donec mi ex, volutpat at lorem sit amet, ullamcorper condimentum mauris. Sed varius risus vitae pharetra tincidunt. Nullam id tempus ipsum. Nullam nec placerat mi. Nullam interdum auctor mattis. Mauris at risus imperdiet diam accumsan molestie eget et ante. In bibendum ex massa, at accumsan nunc condimentum lacinia. Quisque sagittis tellus arcu, nec congue lorem luctus vel. Cras convallis quis dolor ac semper. Donec a vehicula nulla. Aenean dictum a odio sed pharetra. Nunc aliquam, sapien nec aliquet volutpat, est nisl placerat dui, nec posuere nisl dui dictum sapien.</p>
+                        <div class="article-subtitle">2.1 Objetivo do gerenciamento de incidentes</div>
+                        <p>O processo de Gerenciamento de Incidente procura restaurar os serviços o mais rápido possível com o mínimo de interrupção, minimizando os impactos negativos nas áreas de negócio.</p>
+
+                        <div class="article-subtitle">2.2 Conceitos básicos do gerenciamento de incidentes</div>
+                        <ul>
+                            <li><strong>Prazos para execução e escalonamento (Timescales):</strong> Prazos de execução precisam ser acordados para todos os estágios de tratamento ao incidente (que irão diferir de acordo com a prioridade do incidente) baseados nos objetivos de resolução previstos no ANS, ANO e CA.</li>
+                            <li><strong>Modelos de Incidente (Incident Models):</strong> Um modelo de incidente é uma forma de pré-definir os passos que devem ser seguidos para manusear um incidente, de maneira acordada. Define os passos a serem executados, a ordem cronológica dos passos, responsabilidades, tempos de execução, procedimentos de escalonamento e geração de evidências.</li>
+                            <li><strong>Incidentes Principais (Major Incidents):</strong> Incidentes principais têm um alto impacto sobre o negócio. Um procedimento separado, com prazo de execução menor e urgência maior, precisa ser aplicado para incidentes principais. Uma definição do que constitui um incidente principal precisa ser acordada e idealmente mapeada no mecanismo de priorização de incidentes.</li>
+                        </ul>
+                        
+                        <div class="article-subtitle">2.3 Processo de gerenciamento de incidentes</div>
+                        <ul>
+                            <li><strong>Detecção de Incidentes e registro:</strong> Os incidentes na maioria das vezes são oriundos de necessidades de suporte dos usuários. O contato com a Central de Serviço poderá acontecer por telefone ou e-mail.</li>
+                            <li><strong>Classificação e suporte inicial:</strong> Os incidentes devem ser classificados de tal forma a permitir a identificação de erros conhecidos e a geração de informações gerenciais que permitam a identificação dos tipos de incidentes mais frequentes. Para realizar atender os incidentes da melhor forma é necessário definir o impacto e a urgência do incidente O Impacto considera o número de pessoas ou sistemas prejudicados pelo incidente. Já a urgência determina o prazo dentro do qual o incidente precisa ser resolvido.</li>
+                            <li><strong>Investigação e Diagnóstico:</strong> Uma vez registrado o incidente, a atividade de investigação e de diagnóstico será iniciada. Se a Central de Serviço não puder resolver um incidente, ele será endereçado a outros níveis de suporte, que farão a investigação através de um conjunto de habilidades e ferramentas disponíveis, como uma base de registro de Erros Conhecidos.</li>
+                            <li><strong>Resolução e Restauração:</strong> Uma vez que uma solução de contorno ou definitiva para o incidente é encontrada, será implementada. Se uma mudança for necessária, uma RDM (Requisição de Mudança) será submetida ao Gerenciamento de Mudança.</li>
+                            <li><strong>Fechamento do Incidente:</strong> A etapa de fechamento do incidente inclui a atualização dos detalhes do incidente e a comunicação aos usuários sobre a solução.</li>
+                        </ul>
+
+                        <div class="article-subtitle">2.4 Papel do gerente de incidente</div>
+                        <ul>
+                            <li>Buscar a eficiência e eficácia dos processos.</li>
+                            <li>Produzir informações gerenciais, como relatórios de atendimento e de tipos de incidentes.</li>
+                            <li>Gerenciar o trabalho das equipes de suporte de primeiro e segundo nível.</li>
+                            <li>Gerenciar os incidentes graves.</li>
+                            <li>Desenvolver e manter processos e procedimentos.</li>
+                        </ul>
+
+                        <br>
 
                         <div class="article-subtitle">3 Gerenciamento de problemas</div>
 
-                        <p>Morbi elit turpis, volutpat eget feugiat dignissim, vestibulum eget velit. Etiam laoreet massa sed lacus tempor tincidunt. Ut rhoncus leo eget dui porttitor, in posuere nunc euismod. Pellentesque rhoncus, ante sed ultrices dictum, nunc quam euismod purus, quis consectetur risus nulla eget risus. Pellentesque egestas, ex posuere consectetur ullamcorper, massa metus elementum dolor, a porttitor nibh ex vitae mi. Duis nec fringilla metus. Pellentesque rutrum arcu nec urna lacinia tincidunt. Praesent imperdiet nec urna et eleifend. Proin non libero consequat, porttitor augue vel, feugiat ligula. Ut dignissim convallis volutpat. Nunc tristique ex non ex pharetra ultrices. Phasellus odio quam, semper sed molestie sit amet, mollis sed massa. Donec venenatis eget nisi auctor finibus.</p>
+                        <div class="article-subtitle">3.1 Descrição do processo</div>
+                        <p>O processo é focado em encontrar relacionamentos entre os incidentes, problemas e erros conhecidos. Estas três áreas são chaves para compreender a "análise da causa raiz". O princípio básico está em começar com muitas possibilidades e ir estreitando até encontrar a causa raiz final.</p>
+
+                        <div class="article-subtitle">3.2 Objetivo</div>
+                        <p>Minimizar a interrupção nos serviços de TI através da organização dos recursos para solucionar problemas de acordo com as necessidades de negócio, prevenindo a recorrência dos mesmos e registrando informações que melhorem a maneira pela qual a organização de TI trata os problemas, resultando em níveis mais altos de disponibilidade e produtividade.</p>
+
+                        <div class="article-subtitle">3.3 Atividades do gerenciamento de problemas</div>
+                        <ul>
+                            <li>Controle de Problemas.</li>
+                            <li>Controle de Erros.</li>
+                            <li>Gerenciamento Proativo de Problemas.</li>
+                            <li>Finalização da revisão dos Problemas Graves.</li>
+                        </ul>
+
+                        <div class="article-subtitle">3.4 Atividades do gerenciamento de problemas</div>
+                        <ul>
+                            <li>Controle de Problemas.</li>
+                            <li>Controle de Erros.</li>
+                            <li>Gerenciamento Proativo de Problemas.</li>
+                            <li>Finalização da revisão dos Problemas Graves.</li>
+                        </ul>
+
+                        <div class="article-subtitle">3.5 Ferramentas</div>
+                        <ul>
+                            <li>Diagrama de Ishikawa.</li>
+                            <li>Análise de Kepner e Tregoe.</li>
+                        </ul>
+
+                        <br>
 
                         <div class="article-subtitle">4 Cumprimento de requisição</div>
+                        <p>O departamento de Operações recebe muitas requisições de clientes, como a criação de novos usuários, instalação de aplicativos,configuração de softwares, etc. Essas solicitações são chamadas genericamente de requisições de serviço. Estes tipos de demandas geralmente representam pequenas alterações que são de baixo custo, baixo risco, e que ocorrem com frequência, como uma alteração de senha, a instalação de um pacote de software homologado, ou a movimentação de um desktop para outro local.</p>
 
-                        <p>Donec facilisis odio aliquet erat luctus volutpat. In efficitur pellentesque bibendum. Nunc eleifend vehicula sem, eu posuere lorem suscipit sed. Proin condimentum enim quis sapien varius, sed varius sem vestibulum. Donec interdum imperdiet tellus, sit amet varius leo. Integer vestibulum libero ut orci lobortis euismod. Ut dictum nulla sit amet feugiat volutpat. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget odio in dolor semper euismod in ac nulla. Cras ut facilisis turpis. Nam auctor euismod nulla, ac interdum est accumsan in. Etiam commodo lobortis arcu, ut rutrum arcu interdum sed. Etiam eu euismod eros. Proin eu odio in nulla porta commodo. Fusce vel sagittis urna.</p>
+                        Um processo de Cumprimento de Requisição deve ser desenhado para lidar com requisições de serviço da comunidade de usuários. Neste sentido o processo irá: <br>
+
+                        <strong>Proporcionar o acesso a serviços padrões:</strong> Fornecendo um canal para que os usuários obtenham serviços padrão através de uma aprovação pré-definida e um processo de qualificação.<br>
+                        <strong>Comunicar os serviços disponíveis:</strong> A informação é fornecida para os usuários e clientes sobre as ofertas de serviços e como obtê-las (Catálogo de Serviços). <br><br>
+
+                        <br>
 
                         <div class="article-subtitle">5 Gerenciamento de acesso</div>
 
-                        <p>Pellentesque vel magna blandit, mollis lectus a, scelerisque arcu. Proin mattis convallis urna, sed finibus diam gravida sed. Fusce aliquet varius elit sit amet efficitur. Nullam bibendum placerat purus at rhoncus. Pellentesque ante elit, dignissim eu laoreet eget, vestibulum ut nulla. Etiam a bibendum nisl. Quisque posuere consequat nunc eget cursus. Aliquam in maximus elit, nec cursus lacus. Praesent sit amet risus non urna consectetur cursus ac vitae ipsum. Nam in justo id nulla sagittis faucibus nec vitae mi. Nunc eu dui ac ipsum venenatis venenatis. Suspendisse luctus porta convallis. Sed pharetra dui quis dapibus volutpat.</p>
+                        <div class="article-subtitle">5.1 Descrição do processo</div>
+                        <p>Este processo concede ao usuário o direito de usar um serviço, mas nega o acesso a usuários não autorizados, com isso ajudando na organização e a manter a confidencialidade das suas informações de forma mais efetiva. O Gerenciamento da Segurança da Informação define as políticas de segurança, enquanto o Gerenciamento de Acesso executa o que foi definido a partir destas políticas, sendo assim uma parte operacional da segurança da informação.</p>
+                        
+                        <div class="article-subtitle">5.2 Objetivo</div>
+                        <p>O objetivo do Gerenciamento de Acesso é garantir a usuários autorizados o direito de usar um serviço, enquanto impede o acesso a usuários não autorizados. O processo corresponde à execução de políticas e ações definidas no processo de Gerenciamento da Segurança da Informação e Gerenciamento de Disponibilidade.</p>
+
+                        <div class="article-subtitle">5.3 Conceitos básicos</div>
+                        <ul>
+                            <li><strong>Acesso (Access):</strong> Refere-se ao nível e extensão da funcionalidade de um serviço ou dado permitido a um usuário.</li>
+                            <li><strong>Identidade (Identity):</strong> Refere-se à informação sobre o usuário, que o distingue dos demais e demonstra sua situação dentro da organização.</li>
+                            <li><strong>Direitos ou Privilégios (Rights):</strong> Referem-se à regulamentação definida, que determina o acesso a ser oferecido ao usuário para um serviço ou grupos de serviços.</li>
+                            <li><strong>Serviços ou Grupo de Serviços (Services ou service groups):</strong> Usuários não usam somente um serviço, e quando executam um conjunto de atividades similares podem usar um conjunto similar de serviços. Ao invés de se providenciar acesso individual para cada serviço, é mais eficiente conceder a um grupo de usuários o acesso completo aos serviços que estão habilitados a usar. Serviço de Diretório (Directory Services) Refere-se a um tipo específico de ferramenta utilizada para gerenciar os direitos de acesso dos usuários.</li>
+                        </ul>
+
+                        <div class="article-subtitle">5.4 Atividades do gerenciamento de acesso</div>
+                        <ul>
+                            <li>Verificação da legitimidade das requisições</li>
+                            <li>Avalia se a pessoa que está solicitando o acesso possui permissão para usar o serviço.</li>
+                            <li>Fornecer direitos.</li>
+                            <li>Executa a política e as regras definidas na estratégia e no projeto de serviço.</li>
+                            <li>Monitora o status de identidade (mudança de papéis).</li>
+                            <li>Alteração de perfil de acesso em função das mudanças de papéis.</li>
+                            <li>Registra e monitora o acesso.</li>
+                            <li>Garantir que os direitos de acesso foram dados corretamente.</li>
+                            <li>Remove e limita os direitos.</li>
+                            <li>Executa a remoção do direito de acesso.</li>
+                        </ul>
+
+                        <div class="article-subtitle">5.5 Papéis no gerenciamento de acesso</div>
+                        O Gerenciamento de Acesso é uma sobreposição do Gerenciamento de Segurança e do Gerenciamento de Disponibilidade. Não é necessário um Gerente de Acesso, mas as políticas, práticas e procedimentos precisam ser definidos e comunicados para outros grupos e indivíduos. Os seguintes processos estão envolvidos nas atividades deste processo: <br>
+
+                        <strong>Desenho do Serviço:</strong> Assegura que controles simplificados foram construídos e define contramedidas para abusos.<br>
+                        <strong>Transição de Serviço:</strong> Testa os controle projetados.<br>
+                        <strong>Operações de Serviço:</strong> Executa o Gerenciamento de Acesso para sistemas dentro de suas áreas de controle.<br><br>
+
+                        <br>
 
                         <div class="article-subtitle">6 Service desk</div>
                         
-                        <p>Donec iaculis sagittis velit, sed finibus massa consequat vel. Morbi tristique in mauris vitae iaculis. Donec mi ex, volutpat at lorem sit amet, ullamcorper condimentum mauris. Sed varius risus vitae pharetra tincidunt. Nullam id tempus ipsum. Nullam nec placerat mi. Nullam interdum auctor mattis. Mauris at risus imperdiet diam accumsan molestie eget et ante. In bibendum ex massa, at accumsan nunc condimentum lacinia. Quisque sagittis tellus arcu, nec congue lorem luctus vel. Cras convallis quis dolor ac semper. Donec a vehicula nulla. Aenean dictum a odio sed pharetra. Nunc aliquam, sapien nec aliquet volutpat, est nisl placerat dui, nec posuere nisl dui dictum sapien.</p>
+                        <div class="article-subtitle">6.1 Descrição do processo</div>
+                        <p>Do inglês Service Desk, é uma função dentro da TI que tem como objetivo ser o ponto único de contato (SPOC – Single Point of Contact) entre os usuários e clientes e o departamento de TI. A proposta sugerida é de separar, dentro das operações de TI, os profissionais de suporte aos usuários daqueles que realizam atividades de desenvolvimento e resolução de problemas. Uma área específica para o suporte oferece vantagem aos usuários, propiciando um suporte melhor e mais ágil, e mais eficiência para a equipe de TI, pois o técnico especialista não é mais interrompido pelas chamadas diretas de usuários.</p>
 
+                        <div class="article-subtitle">6.2 Objetivos</div>
+                        <ul>
+                            <li>Restaurar os serviços sempre que possível.</li>
+                            <li>Prover suporte com qualidade para atender aos objetivos do negócio.</li>
+                            <li>Gerenciar todos os incidentes até o seu encerramento.</li>
+                            <li>Dar suporte a mudanças, fornecendo comunicação aos usuários sobre o agendamento de mudanças.</li>
+                            <li>Aumentar a satisfação do usuário.</li>
+                        </ul>
 
-                        <br><p>Quer testar seus conhecimentos?, faça este <a href="quiz.html">Quiz</a></p>
+                        <div class="article-subtitle">6.3 Conceitos básicos</div>
+                        <ul>
+                            <li><strong>Estruturas de Central de Serviço:</strong> Em geral as empresas preferem manter centrais de atendimentos locais, ou seja, por regiões. Isso ocorre devido ao regionalismo. Esta forma de atendimento gera um custo maior e dificuldade de padronização.</li>
+                            <li><strong>Central de Serviço Local:</strong> Um Central de Serviço Local é criada para atender às necessidades locais de cada unidade de negócio. Este tipo de estrutura é escolhido quando há necessidades específicas para cada unidade de negócio, onde o atendimento é facilitado devido ao fato da equipe de suporte já estar implantada no local. Normalmente, neste tipo de estrutura o custo operacional é maior, devido ao fato de manter várias estruturas físicas, com recursos como hardware e software específicos para cada uma.</li>
+                            <li><strong>Central de Serviço Centralizada:</strong> Uma Central de Serviço Centralizada tem como objetivo centralizar todas as solicitações de suporte em um único local. Este modelo gera a redução de custos operacionais, melhora o gerenciamento de serviços de TI e otimiza a utilização dos recursos.</li>
+                            <li><strong>Central de Serviço Virtual:</strong> Com o avanço das tecnologias de telecomunicações é possível ter uma Central de Serviço sem nenhuma posição física próxima ao usuário. Com isto é possível ter uma Central de Serviço que funcione 24 horas por dia, atendendo a diversos clientes em locais distintos.</li>
+                        </ul>
+
+                        <div class="article-subtitle">6.4 Atividades</div>
+                        <ul>
+                            <li>Receber e gravar TODAS as chamadas dos usuários.</li>
+                            <li>Gravar e acompanhar incidentes e reclamações.</li>
+                            <li>Prover uma avaliação inicial dos incidentes.</li>
+                            <li>Monitorar e escalar incidentes por ANS.</li>
+                            <li>Comunicar mudanças planejadas nos níveis de serviço.</li>
+                            <li>Encerrar os incidentes com confirmação.</li>
+                            <li>Manter os usuários informados sobre o progresso de suas requisições.</li>
+                            <li>Produzir relatórios de gerenciamento.</li>
+                            <li>Coordenar os grupos de suporte de 2º e 3º nível.</li>
+                            <li>Prover informações gerenciais.</li>
+                            <li>Identificar necessidades de treinamento dos usuários.</li>
+                            <li>Contribuir com a identificação de problemas.</li>
+                        </ul>
+                        
+                        <div class="article-subtitle">6.5 Papéis no service desk</div>
+                        <ul>
+                            <li>O Gerente da Central de Serviço e/ou o Supervisor de Serviços gerenciam grupos de atendimento.</li>
+                            <li>O Analista de Suporte fornece o primeiro nível de suporte e atendimento.</li>
+                        </ul>
+
+                        <br>
+
+                        <p>Quer testar seus conhecimentos?, faça este <a href="quiz.html">Quiz</a></p>
                     </div>
     
                     <div class="article-references-title">
@@ -76,7 +253,21 @@
                     </div>
 
                     <div class="article-references-content">
-                        author 1
+                        
+                        <p>BON, Jan Von. <strong>Foundations of IT Service Management, based on ITIL.</strong> 1. ed. Lunteren - Holanda: Van Haren Publishing, 2005.</p>
+
+                        <p>CHIARI, Renê. <strong>Guia de Referência ITIL.</strong> 1. ed. [S.l.: s.n.], 2015.</p>
+
+                        <p>COUGO, Paulo Sérgio. <strong>ITIL: Guia de implantação.</strong> 1. ed. Rio de Janeiro: Elsevier, 2013.</p>
+
+                        <p> <strong>Service Delivery.</strong> 1. ed. Londres – Inglaterra: The Stationary Office, 2000.</p>
+
+                        <p> <strong>Service Support.</strong> 1. ed. Londres – Inglaterra: The Stationary Office, 2000.</p>
+
+                        <p>FILHO, Felício Cestari. <strong>ITIL V3 fundamentos.</strong> 1. ed. Rio de Janeiro: Rede Nacional de Ensino e Pesquisa – RNP, 2012.</p>
+
+                        <p>LONG, John O.. <strong>ITIL version 3 at glance.</strong> 1. ed. [S.l.]: Springer, 2008.</p>
+
                     </div>
     
                 </div>
